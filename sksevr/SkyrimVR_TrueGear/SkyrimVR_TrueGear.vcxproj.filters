@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="dirent.h" />
+    <ClInclude Include="GameStop.h" />
+    <ClInclude Include="Hook.h" />
+    <ClInclude Include="json.hpp" />
+    <ClInclude Include="SkyrimVR_TrueGear.h" />
+    <ClInclude Include="Utility.hpp" />
+    <ClInclude Include="api\higgsinterface001.h" />
+    <ClInclude Include="easywsclient.hpp" />
+    <ClInclude Include="base64.h" />
+    <ClInclude Include="EffectObject.h" />
+    <ClInclude Include="cmd.h" />
+    <ClInclude Include="concurrentqueue.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameStop.cpp" />
+    <ClCompile Include="Hook.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="RandomSelector.cpp" />
+    <ClCompile Include="SkyrimVR_TrueGear.cpp" />
+    <ClCompile Include="api\higgsinterface001.cpp" />
+    <ClCompile Include="easywsclient.cpp" />
+    <ClCompile Include="base64.cpp" />
+    <ClCompile Include="EffectObject.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SkyrimVR_TrueGear.def" />
+  </ItemGroup>
+</Project>
